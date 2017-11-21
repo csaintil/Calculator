@@ -1,0 +1,118 @@
+
+body{
+	background-image: url('shen.gif');
+	
+		background-size: 160%;
+background-repeat: no-repeat;
+}
+	#div1 {
+		font-size: 10px;
+		opacity: 0.5;
+		width: 100%;
+	}
+
+#one {
+		background-image: url(tens.gif);
+		background-size: 105%;
+		background-repeat: no-repeat;
+		border-color: 6px solid black ;
+		
+
+	}
+	#two {background-color: brown;
+		background-image: url('broly.gif');
+
+background-size: cover;
+background-repeat: no-repeat;
+
+	}
+	#three {
+		background-image: url('veg.gif');
+		
+		background-size: cover;
+background-repeat: no-repeat;
+	}
+	#four {
+		background-image: url('ve.gif');
+			background-size:cover;
+background-repeat: no-repeat;
+	}
+	#five {background-color: pink;
+		background-image: url('veg2.gif');
+			background-size:cover;
+background-repeat: no-repeat;}
+	#six {background-color: rgb(0,3,4);
+		background-image: url('kai.gif');
+			background-size:cover;
+background-repeat: no-repeat;}
+
+	#seven { background-color: gray;
+		background-image: url("seven.gif");
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+
+
+	}
+	#eight {
+		background-image: url('go4.gif');
+	background-size:cover;
+background-repeat: no-repeat;
+
+
+
+	}
+	#nine {background:url('bar.gif');
+background-size:cover;
+background-repeat: no-repeat;}
+	#zero {background-image: url('z.gif');
+	background-size:cover;
+background-repeat: no-repeat;
+
+}
+	
+#div {
+	background-image: url('go.gif');
+	background-size:cover;
+background-repeat: no-repeat;
+}
+	#multiply {
+		background-image: url('mul.gif');
+	background-size:cover;
+background-repeat: no-repeat;
+	}
+	#sub {
+		background:url('go2.gif');
+	background-size:cover;
+background-repeat: no-repeat;
+	}
+	#plus {
+		background:url('g.gif');
+background-size:cover;
+/*background-repeat: no-repeat;*/
+	}
+	#C{background-image: url('blast.gif');
+		background-size:cover;
+background-repeat: no-repeat;
+
+
+	}
+	#av {
+		
+background-image: url('fusion1.gif');
+
+background-size:cover;
+background-repeat: no-repeat;
+	}
+	
+	
+	#equal {
+		background-image: url('eq.gif');
+		background-size: cover;
+	
+	}
+	#per {
+		background-image: url('go3.gif');
+	background-size:cover;
+background-repeat: no-repeat;
+	}
+		

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" type="text/css" href="calc.css">
+
+<style type="text/css">
+	
+
+	
+	
+</style>
+
+
+
+</head>
+<body>
+	
+<div class="div1">
+<center>
+<form name="Calculator">
+	
+	<input type="text" name="show" size="16">
+	         <br>
+
+				<input id="seven" type="button" name="seven" value="7" onclick="Calculator.show.value +='7'">
+				
+				<input type="button" id="eight" name="eight" value="8" onclick="Calculator.show.value +='8'">
+				<input type="button" id="nine" name="nine" value="9" onclick="Calculator.show.value +='9'">
+				<input type="button" id="div" name="div" value=" / "  onclick="Calculator.show.value += ' /'">
+				
+
+	<br>
+	 <input type="button" id="four" name="four" value="4" onclick="Calculator.show.value +='4'">
+	 	 <input type="button" id="five" name="five" value="5" onclick="Calculator.show.value +='5'">
+
+	 	 	 <input type="button" id="six" name="six" value="6" onclick="Calculator.show.value +='6'">
+
+	 	 	 	 <input type="button" id="multiply" name="multiply" value="*" onclick="Calculator.show.value +='*'">
+
+<br>
+	 <input type="button" id="one" name="one" value="1" onclick="Calculator.show.value +='1'">
+	 	 <input type="button" id="two" name="two" value="2" onclick="Calculator.show.value +='2'">
+
+	 	 	 <input type="button" id="three" name="three" value="3" onclick="Calculator.show.value +='3'">
+
+	 	 	 	 <input type="button" id="sub" name="sub" value="-" onclick="Calculator.show.value +='-'">
+<br> <!-- look  for the avg -->
+	   <!-- <input type="button" name="Avg" value="Avg" onclick="Calculator.show.value +=math.mean[Calculator.show.value]">  -->
+	    <input type="button" id="zero" name="zero" value="0" onclick="Calculator.show.value +='0'">
+
+	   	 <input type="button" id="C" name="C" value="C" onclick="Calculator.show.value =''">
+
+	   	 	 <input type="button" id="plus" name="plus" value="+" onclick="Calculator.show.value +='+'">
+
+	   	 	     <input type="button" id="per" name="percent" value="%" onclick="Calculator.show.value +='%'">
+
+
+
+<br>
+<input type="button" id="av" name="Avg" value="Avg" onclick="avg()"> 
+
+<input type="button" id="equal" name="equal" value="=" onclick="Calculator.show.value = eval(Calculator.show.value)"> 
+
+
+
+
+</form>
+</center>
+<script type="text/javascript">
+	
+	function avg() {
+	
+		var array = Calculator.show.value.split('+'); //the split method transform the string into an array and remove the plus sign (for example 2+2+2+2 = [2,2,2,2])
+
+		var sum = 0;
+		for (var i = 0;  i < array.length; i++) { // I assign 0 to var , then it will check if i is less than array.length, then the sum will add to the value of array length while the parseInt changing it into an integer using the index of the array 
+			sum+= parseInt(array[i]);
+		}
+		Calculator.show.value=sum/array.length; // after the for loop is over we will didive the sum by arrays length
+  
+
+	} 
+// function avg(){
+//             Calc.Input.value=eval(Calc.Input.value)/Calc.Input.value.split("+").length; //split according to + symbol then get the length. Add then divide by the length
+//         }
+
+
+</script>
+
+</div>
+
+
+
+
+
+
+</div>
+       
+</body>
+</html>
